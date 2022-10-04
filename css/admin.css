@@ -1,0 +1,108 @@
+* {
+    list-style: none;
+}
+
+.button-group .btn {
+    font-family: 'Josefin Sans', sans-serif;
+    bottom: 10px;
+    right: 10px;
+    background: #12bd89de;
+    color: black;
+    border: 1px solid #444;
+}
+
+.button-group .btn:hover {
+    color: white;
+}
+
+.admin-wrapper {
+    height: 89%;
+    display: flex;
+}
+
+.admin-wrapper .left-menubar {
+    flex: 2;
+    height: 100%;
+    background: #12bd89de;
+}
+
+.admin-wrapper .left-menubar ul {
+    list-style: none;
+    margin: 0px;
+    padding-left: 5px;
+}
+
+.admin-wrapper .left-menubar ul li a {
+    padding: 18px;
+    text-decoration: none;
+    display: block;
+    color: black;
+    border-bottom: 2px solid #444;
+}
+
+.admin-wrapper .left-menubar ul li a:hover {
+    background: #308371;
+    color: white;
+}
+
+.admin-wrapper .admin-content {
+    flex: 8;
+    height: 100%;
+    padding: 40px 100px 100px;
+    overflow-y: scroll;
+}
+
+.admin-content .page-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+.edit {
+    color: blue;
+}
+
+.delete {
+    color: red;
+}
+
+.publish {
+    color: green;
+}
+
+.trending {
+    color: rgb(214, 139, 0);
+}
+
+.edit:hover, .delete:hover, .publish:hover, .trending:hover {
+    text-decoration: underline;
+    color: #444;
+}
+
+.admin-footer {
+    background: rgb(42, 50, 53);
+    color: #686868;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 11px;
+}
